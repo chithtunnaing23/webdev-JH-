@@ -30,8 +30,8 @@ h2 {
 	float: right;
 	padding: 3px 40px;
 	font-size: 1.2em;
-	border-left: 2px solid black;
-	border-bottom: 2px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
 }
 
 p {
@@ -42,7 +42,7 @@ p {
 .col-1, .col-2, .col-3{
 	display: inline-block;
 	width: 30%;
-	border: 2px solid black;
+	border: 1px solid black;
 	margin: 0 10px;
 }
 
