@@ -1,0 +1,45 @@
+#header-nav {
+	background-color: lightgreen;
+}
+
+body {
+	background-color: yellow;
+}
+
+#nav-list > .nav-item > a.nav-link {
+	margin: 0 -20px;
+}
+
+
+#nav-list > .nav-item > a.nav-link:hover {
+	background-color: black;
+	color: white;
+}
+
+#header-nav {
+	padding-bottom: 0;
+}
+
+/* end heading */
+
+/* main content */
+#main-content > h2 {
+	margin-top: 20px;
+}
+
+#main-content div .row {
+	border: 1px solid black;
+	margin: 20px auto;
+	background-color: pink;
+}
+
+#main-content div .row span {
+	color: green;
+}
+
+@media (max-width: 575px) {
+	#main-content div .row {
+		width: 80%;
+	}
+}
+
